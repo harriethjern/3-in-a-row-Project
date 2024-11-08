@@ -21,7 +21,9 @@ class MainActivity : ComponentActivity() {
             _3inarowprojectTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
+
                         name = "AndroidSoifa",
+
 
                         modifier = Modifier.padding(innerPadding)
                     )
